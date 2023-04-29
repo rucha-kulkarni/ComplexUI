@@ -43,4 +43,31 @@
     margin: 0px;
     padding: 0px;
     --bs-gutter-x: -10.5rem;
+    margin-bottom: 100px;
 }
+.footer-div{
+    margin:20px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+
+    background-color:rgb(242, 246, 248);
+}
+.foot a{
+    display: flex;
+    flex-direction:column;
+}
+
+.copyr{
+    display: flex;
+    flex-direction: row;
+}
+#myBtn{
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    justify-content: flex-end;
+    background-color: #0d6efd;
+}
+
